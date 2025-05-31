@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <!-- 唯一标识 -->
+    <key>Label</key>
+    <string>startLockScreenCloseBluetoothDevice</string>
+
+    <!-- 脚本路径及参数 -->
+    <key>ProgramArguments</key>
+    <array>
+      <string><!-- Your LockScreenCloseBluetoothDeviceForMac path --></string>
+      <string><!-- The device your want to close -->></string>
+      <string><!-- The device your want to close -->></string>
+    </array>
+
+    <!-- 登录后启动 -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- 如果需要保持脚本常驻，可打开下面这一行 -->
+    <key>KeepAlive</key>
+    <true/>
+
+    <!-- （可选）重定向标准输出／错流到文件 -->
+    <key>StandardOutPath</key>
+    <string>/dev/null</string>
+    <key>StandardErrorPath</key>
+    <string>/dev/null</string>
+  </dict>
+</plist>
+
